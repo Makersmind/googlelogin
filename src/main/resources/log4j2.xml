@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.makersmind" status="DEBUG">
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="consoleAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
