@@ -6,7 +6,7 @@ Usage
 Step 1: Open auth_configuration_lower.json file and replace the "web" content with the one you receive from google developer console.
 
 Step 2: Open HelloGoogleLogin.html, and edit the place where it takes the client ID. You should see a meta tage like the below
-<meta name="google-signin-client_id"
+<meta name="google-signin-client_id". Note: You may need to whitelist your origin of the UI page on the oAuth2 client details section in google developer console.
 
 Step 3: Run the HelloGoogleLogin.html using a web browser. Recomended browser is safari and  chrome (any version is fine)
 
